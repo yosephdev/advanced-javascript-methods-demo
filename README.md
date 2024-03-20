@@ -48,3 +48,10 @@ const numbers = [1, 2, 3, 4, 5];
 const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 console.log(sum); // Output: 15
 ```
+## Running the Examples
+
+To run the examples provided in this repository, follow these steps:
+
+1. Clone this repository to your local machine using Git.
+2. Open a terminal or command prompt and navigate to the cloned directory.
+3. Run the example scripts using Node.js.
