@@ -17,9 +17,34 @@ const mapResults = nums.map(multByTwo);
 console.log(mapResults);
 
 // Simplified w/ map()
-
+const simplfied = nums.map(function(num) {return num * 2});
+console.log(simplfied);
 
 // Simplfied w/ map() + arrow function
-
+const arrow = nums.map(num => num * 2);
+console.log(arrow);
 
 // With objects:
+const students = [
+    {
+      id: 1,
+      name: 'Mark',
+      profession: 'Developer',
+      skill: 'JavaScript'
+    },
+    {
+      id: 2,
+      name: 'Ariel',
+      profession: 'Developer',
+      skill: 'HTML'
+    },
+    {
+      id: 3,
+      name: 'Jason',
+      profession: 'Designer',
+      skill: 'CSS'
+    },
+  ];
+
+  const  studentsWithIds = students.map(student => [student.name, student.id]);
+  console.log(studentsWithIds);
